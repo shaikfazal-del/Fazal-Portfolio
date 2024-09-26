@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fazal | Portfolio</title>
+    <link rel="shortcut icon" href="/images/profile-pic.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo" id="home">
+            <p id="logo-style">Fazal</p>
+        </div>
+        <div id="hide-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#project">projects</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="banner-sec" data-aos="fade-up">
+        <div class="console-container">
+            <span id="text" data-aos="fade-up"></span>
+            <div class="console-underscore" id="console" data-aos="fade-up">&#95;</div>
+        </div>
+        <div class="carrer">
+            <p data-aos="fade-up">Passionate Cybersecurity Aspirant</p>
+        </div>
+        <div class="btn">
+            <button id="button" data-aos="fade-right"><a href="mailto:shaikfazal9392.com">Email Me</a></button>
+            <button id="button" data-aos="fade-left"><a href="https://github.com/shaikfazal-del?tab=repositories">View my work</a></button>
+        </div>
+    </div>
+    <div class="about-sec" id="about">
+        <p id="txt-about-banner"><svg viewbox="0 0 100 20">
+                <defs>
+                    <linearGradient id="gradient">
+                        <stop stop-color="white" />
+                    </linearGradient>
+                    <pattern id="wave" x="0" y="-0.5" width="100%" height="100%" patternUnits="userSpaceOnUse">
+                        <path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z"
+                            mask="url(#mask)" fill="url(#gradient)">
+                            <animateTransform attributeName="transform" begin="0s" dur="1.5s" type="translate"
+                                from="0,0" to="40,0" repeatCount="indefinite" />
+                        </path>
+                    </pattern>
+                </defs>
+                <text text-anchor="middle" x="50" y="15" font-size="17" fill="orange" fill-opacity="0.1">About
+                    me</text>
+                <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#wave)" fill-opacity="1">About
+                    me</text>
+            </svg>
+        </p>
+        <div class="flex">
+            <div class="txt-about" data-aos="fade-up">
+                <p>
+                    I’m a tech enthusiast and Computer Science Engineering student at SR University, focused on
+                    cybersecurity. With skills in Python, C, computer networking, and frontend development, I
+                    combine
+                    development and security insights to protect digital environments. Certified in various
+                    cybersecurity tools, I’m driven by a passion to learn and secure the tech landscape. Excited
+                    to
+                    connect with professionals who share my mission to safeguard our digital future.
+                </p>
+            </div>
+            <div data-aos="flip-right">
+                <img src="/images/profile pic-fazal.jpeg" alt="a lighthouse" id="img" />
+            </div>
+        </div>
+        <div class="btn" style="display: flex;align-items: center;justify-content:center;">
+            <button id="button"><a href="https://drive.google.com/file/d/1A_uFG8AMdhCajD4kxkwgRauTwykzTcG8/view?usp=drive_link"
+                    target="_blank">View My CV</a></button>
+        </div>
+    </div>
+    <div class="skills">
+        <p id="txt-about-banner"><svg viewbox="0 0 100 20">
+                <defs>
+                    <linearGradient id="gradient">
+                        <stop stop-color="white" />
+                    </linearGradient>
+                    <pattern id="wave" x="0" y="-0.5" width="100%" height="100%" patternUnits="userSpaceOnUse">
+                        <path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z"
+                            mask="url(#mask)" fill="url(#gradient)">
+                            <animateTransform attributeName="transform" begin="0s" dur="1.5s" type="translate"
+                                from="0,0" to="40,0" repeatCount="indefinite" />
+                        </path>
+                    </pattern>
+                </defs>
+                <text text-anchor="middle" x="50" y="15" font-size="17" fill="orange" fill-opacity="0.1">Skills</text>
+                <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#wave)" fill-opacity="1">Skills</text>
+            </svg>
+        </p>
+        <div class="show-skills">
+            <div id="skills">
+                <h3 style="color: #1e90ff;" data-aos="fade-up">Cybersecurity</h3>
+                <ul id="flex-column">
+                    <li data-aos="fade-right">CIA Traid</li>
+                    <li data-aos="fade-right">Network Security</li>
+                    <li data-aos="fade-right">Ethical Hacking</li>
+                    <li data-aos="fade-right">Vulnerability Scanning</li>
+                </ul>
+            </div>
+            <div id="skills">
+                <h3 style="color: #1e90ff;" data-aos="fade-up">Programming</h3>
+                <ul id="flex-column">
+                    <li data-aos="fade-right" id="img-flex">Python <img src="/images/python.svg" height="40px"
+                            width="40px" alt=""></li>
+                    <li data-aos="fade-right" id="img-flex">C<img src="/images/c.svg" height="40px" width="40px" alt="">
+                    </li>
+                    <li data-aos="fade-right" id="img-flex">HTML<img src="/images/html.svg" height="40px" width="40px"
+                            alt=""></li>
+                    <li data-aos="fade-right" id="img-flex">CSS<img src="/images/css.svg" height="40px" width="40px"
+                            alt=""></li>
+                    <li data-aos="fade-right" id="img-flex">JavaScript<img src="/images/js.svg" height="40px"
+                            width="40px" alt=""></li>
+                </ul>
+            </div>
+            <div id="skills">
+                <h3 style="color: #1e90ff;" data-aos="fade-up">Tools & Frameworks</h3>
+                <ul id="flex-column">
+                    <li data-aos="fade-right" id="img-flex">Kali Linux<img src="/images/kalilinux.svg" height="40px"
+                            width="40px" alt=""></li>
+                    <li data-aos="fade-right" id="img-flex">Brup Suite<img src="/images/burpsuite-security.svg"
+                            height="40px" width="40px" alt=""></li>
+                    <li data-aos="fade-right" id="img-flex">Tailwind CSS<img src="/images/tailwind-css-svgrepo-com.svg"
+                            height="40px" width="40px" alt=""></li>
+                    <li data-aos="fade-right" id="img-flex">Nmap</li>
+                    <li data-aos="fade-right" id="img-flex">Metasploit</li>
+                    <li data-aos="fade-right" id="img-flex">Wireshark</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="experiences" id="experience">
+        <p id="txt-about-banner"><svg viewbox="0 0 100 20">
+                <defs>
+                    <linearGradient id="gradient">
+                        <stop stop-color="white" />
+                    </linearGradient>
+                    <pattern id="wave" x="0" y="-0.5" width="100%" height="100%" patternUnits="userSpaceOnUse">
+                        <path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z"
+                            mask="url(#mask)" fill="url(#gradient)">
+                            <animateTransform attributeName="transform" begin="0s" dur="1.5s" type="translate"
+                                from="0,0" to="40,0" repeatCount="indefinite" />
+                        </path>
+                    </pattern>
+                </defs>
+                <text text-anchor="middle" x="50" y="15" font-size="17" fill="white"
+                    fill-opacity="0.1">Experience</text>
+                <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#wave)"
+                    fill-opacity="1">Experience</text>
+            </svg>
+        </p><!-- Experience Section -->
+        <section id="experience" class="experience-section">
+            <div class="experience-container">
+                <div class="experience-card" data-aos="fade-up">
+                    <h3>Cyber Security Intern</h3>
+                    <h4>The Red Users</h4>
+                    <span class="experience-duration">Sept 2024 (1 Month)</span>
+                    <p>Worked on cybersecurity projects such as a network packet analyzer, steganography program, and
+                        password strength checker.</p>
+                </div>
+
+                <div class="experience-card" data-aos="fade-up">
+                    <h3>Virtual Intern</h3>
+                    <h4>Prodigy Info Tech</h4>
+                    <span class="experience-duration">Aug 2024 (1 Month)</span>
+                    <p>Developed cybersecurity tools using Python, including a network analyzer and password management
+                        programs.</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <div class="projects" id="project">
+        <p id="txt-about-banner"><svg viewbox="0 0 100 20">
+                <defs>
+                    <linearGradient id="gradient">
+                        <stop stop-color="white" />
+                    </linearGradient>
+                    <pattern id="wave" x="0" y="-0.5" width="100%" height="100%" patternUnits="userSpaceOnUse">
+                        <path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z"
+                            mask="url(#mask)" fill="url(#gradient)">
+                            <animateTransform attributeName="transform" begin="0s" dur="1.5s" type="translate"
+                                from="0,0" to="40,0" repeatCount="indefinite" />
+                        </path>
+                    </pattern>
+                </defs>
+                <text text-anchor="middle" x="50" y="15" font-size="17" fill="white" fill-opacity="0.1">Projects</text>
+                <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#wave)"
+                    fill-opacity="1">Projects</text>
+            </svg>
+        </p>
+        <div class="portfolio">
+            <div class="project-grid">
+                <div class="project-card" data-aos="fade-up">
+                    <img src="/images/keylogger-1.png" alt="Project 1" id="imge">
+                    <h3 style="font-size: 1.5rem;">Key-Logger</h3>
+                    <div class="tags">
+                        <p>Tags:</p>
+                        <img src="/images/python.svg" height="20px" width="20px" alt="">
+                    </div>
+                    <p>This Python script employs the pynput library to meticulously capture keystrokes, documenting
+                        both alphanumeric and specialized keys, archiving them into a file for comprehensive analysis of
+                        user input behavior and precise keyboard event tracking.</p>
+                    <a href="https://github.com/shaikfazal-del/PRODIGY_CS_04.git" class="project-link"><img
+                            src="/images/github-mark.svg" height="20px" width="20px" alt="">View Project</a>
+                </div>
+                <div class="project-card" data-aos="fade-up">
+                    <img src="/images/project-2.png" alt="Project 1" id="imge">
+                    <h3 style="font-size: 1.5rem;">Password Complexity Checker</h3>
+                    <div class="tags">
+                        <p>Tags:</p>
+                        <img src="/images/python.svg" height="20px" width="20px" alt="">
+                    </div>
+                    <p>This Python script evaluates password complexity, scoring it out of 100 based on length,
+                        lowercase and uppercase letters, digits, and special character</p>
+                    <a href="https://github.com/shaikfazal-del/PRODIGY_CS_02.git" class="project-link"><img
+                            src="/images/github-mark.svg" height="20px" width="20px" alt="">View Project</a>
+                </div>
+                <div class="project-card" data-aos="fade-up">
+                    <img src="/images/project-3.png" alt="Project 1" id="imge">
+                    <h3 style="font-size: 1.5rem;">IPL Team Website</h3>
+                    <div class="tags">
+                        <p>Tags:</p>
+                        <img src="/images/html.svg" height="20px" width="20px" alt="">
+                        <img src="/images/css.svg" height="20px" width="20px" alt="">
+                        <img src="/images/js.svg" height="20px" width="20px" alt="">
+                    </div>
+                    <p>The SRH IPL Team Website provides comprehensive player profiles, real-time scores, detailed match
+                        schedules, league standings, and timely news updates specifically tailored for dedicated
+                        Sunrisers Hyderabad cricket enthusiasts and supporters.</p>
+                    <a href="https://github.com/shaikfazal-del/ShadowFox.git" class="project-link"><img
+                            src="/images/github-mark.svg" height="20px" width="20px" alt="">View Project</a>
+                </div>
+                <div class="project-card" data-aos="fade-up">
+                    <img src="/images/project-4.jpg" alt="Project 1" id="imge">
+                    <h3 style="font-size: 1.5rem;">Text2image-Generator</h3>
+                    <div class="tags">
+                        <p>Tags:</p>
+                        <img src="/images/html.svg" height="20px" width="20px" alt="">
+                        <img src="/images/css.svg" height="20px" width="20px" alt="">
+                        <img src="/images/js.svg" height="20px" width="20px" alt="">
+                    </div>
+                    <p>This website is a text-to-image generator that allows users to input text and generate
+                        corresponding images using Melonie AI. The website utilizes the Melonie AI API to seamlessly
+                        integrate text processing and image generation functionalities.</p>
+                    <a href="https://shaikfazal-del.github.io/text2image-ai/" class="project-link"><img
+                            src="/images/github-mark.svg" height="20px" width="20px" alt="">View Project</a>
+                </div>
+                <div class="project-card" data-aos="fade-up">
+                    <img src="/images/project-5.png" alt="Project 1" id="imge">
+                    <h3 style="font-size: 1.5rem;">BMI-calculator</h3>
+                    <div class="tags">
+                        <p>Tags:</p>
+                        <img src="/images/html.svg" height="20px" width="20px" alt="">
+                        <img src="/images/css.svg" height="20px" width="20px" alt="">
+                        <img src="/images/js.svg" height="20px" width="20px" alt="">
+                    </div>
+                    <p>This is a simple BMI (Body Mass Index) calculator web application. It allows users to input their
+                        height and weight, and it calculates and displays their BMI along with a corresponding health
+                        category.</p>
+                    <a href="https://shaikfazal-del.github" class="project-link"><img src="/images/github-mark.svg"
+                            height="20px" width="20px" alt="">View Project</a>
+                </div>
+                <div class="project-card" data-aos="fade-up">
+                    <img src="/images/project-6.jpeg" alt="Project 1" id="imge">
+                    <h3 style="font-size: 1.5rem;">Emoji-Search</h3>
+                    <div class="tags">
+                        <p>Tags:</p>
+                        <img src="/images/html.svg" height="20px" width="20px" alt="">
+                        <img src="/images/css.svg" height="20px" width="20px" alt="">
+                        <img src="/images/js.svg" height="20px" width="20px" alt="">
+                    </div>
+                    <p>This project is a simple web application for searching emojis using HTML, CSS (with Tailwind
+                        CSS), and JavaScript. It utilizes an open-source API to fetch emoji data and is designed to be
+                        responsive across various devices.</p>
+                    <a href="https://shaikfazal-del.github.io/Emoji-Search/" class="project-link"><img
+                            src="/images/github-mark.svg" height="20px" width="20px" alt="">View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="contact-form" data-aos="fade-up">
+            <h2>Contact Me</h2>
+            <form onsubmit="openOutlook(); return false;">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Enter your message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+
+            <div class="contact-info">
+                <p>Feel free to reach out via Outlook!</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <ul id="flex-footer">
+            <li><a href="https://www.linkedin.com/in/shaik-fazal/"><img src="/images/linkedin_logo.png"  height="40px" width="40px"></a></li>
+            <li><a href="https://www.instagram.com/__.fazal07.__/"><img src="/images/instagram-logo.png" height="40px" width="40px"></a></li>
+            <li><a href="https://x.com/ShaikFazal9392"><img src="/images/twitter-logo.ico" height="40px" width="40px"></a></li>
+            <li><a href="https://github.com/shaikfazal-del"><img src="/images/github-mark.svg" height="40px" width="40px" alt=""></a></li>
+        </ul>
+        <p style="color: white;font-size:1.1rem;text-align: center;">&copy;2024 Fazal</p>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+<script src="logic.js"></script>
+
+</html>
